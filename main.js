@@ -39,7 +39,7 @@ function geraPortfolio() {
       <p class="card-text lh-base mb-3" style="font-size: 0.75rem;">${content}
       </p>
     </div>
-    <a href=${github} class="btn btn-danger mx-auto"> <i class="bi bi-github"></i>
+    <a href=${github} class="btn btn-danger mx-auto" target='_blank'> <i class="bi bi-github"></i>
       Repositório</a>
   </div>`
   })
