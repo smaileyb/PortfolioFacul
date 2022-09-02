@@ -1,13 +1,11 @@
-@import url(_variaveis.css);
 @import url(_reset.css);
+@import url(_variaveis.css);
 
 body {
   background-color: var(--azul-principal);
   font-family: var(--familia-corpo);
   font-size: var(--tamanho-corpo);
   color: var(--branco);
-
-
 }
 
 main {
@@ -28,7 +26,6 @@ a:hover {
 
 .link {
   transition: all 400ms ease;
-  ;
 }
 
 .link:hover {
@@ -40,14 +37,12 @@ a:hover {
   display: flex;
   flex-direction: column;
   grid-area: lateral;
-
 }
 
 .principal {
   text-align: justify;
   grid-area: principal;
   width: auto;
-
 }
 
 .titulo {
