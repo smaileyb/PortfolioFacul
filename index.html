@@ -1,0 +1,255 @@
+<!DOCTYPE html5>
+<html lang="pt-br>
+<head>
+  <meta charset=" UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEV Portfolio</title>
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<!-- BOOTSTRAP ICONS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<!-- FONTE -->
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet" href="./assets/css/base/base.css">
+<link rel="stylesheet" href="./assets/css/perfil.css">
+<link rel="stylesheet" href="./assets/css/links.css">
+<link rel="stylesheet" href="./assets/css/contact.css">
+<link rel="stylesheet" href="./assets/css/rodape.css">
+</head>
+
+<body>
+  <main>
+    <section class="lateral">
+      <!-- PERFIL -->
+      <div class="card">
+        <img class="perfil__foto align-self-center" src="./assets/img/perfil.jpg" alt="Foto do perfil">
+        <h2 class="perfil__titulo lh-sm text-center fw-bold mb-1">Smailey Alexandre Behm</h2>
+        <p class="mb-4 text-center lh-sm">Front-end developer</p>
+        <div class="d-flex flex-column align-items-start justify-content-evenly links">
+          <p href="#" class="link d-flex align-items-center text-center mb-2"> <i class="bi bi-geo-alt-fill"></i>
+            Curitiba/PR</p>
+          <p href="#" class="link d-flex align-items-center mb-2"> <i class="bi bi-briefcase"></i>Assessor no
+            TJPR</p>
+          <a href="https://github.com/smaileyb" class="link d-flex align-items-center mb-2" target='_blank'><i
+              class="bi bi-github"></i>smaileyb</a>
+          <a href="https://www.linkedin.com/in/smailey/" class="link d-flex align-items-center mb-2" target='_blank'><i
+              class="bi bi-linkedin"></i>Smailey Alexandre
+            Behm</a>
+          <a href="https://twitter.com/SmaileyB" class="link d-flex align-items-center mb-2" target='_blank'><i
+              class="bi bi-twitter"></i>smaileyb</a>
+        </div>
+      </div>
+      <!-- TECNOLOGIAS -->
+      <div class="card tech">
+        <h3 class="titulo">Tecnologias em estudo</h3>
+        <ul class="d-flex flex-wrap gap-3">
+          <li class="badge rounded-pill text-bg-danger p-2">HTML</li>
+          <li class="badge rounded-pill text-bg-danger p-2">CSS</li>
+          <li class="badge rounded-pill text-bg-danger p-2">JAVASCRIPT</li>
+          <li class="badge rounded-pill text-bg-danger p-2">REACTJS</li>
+          <li class="badge rounded-pill text-bg-danger p-2">NODEJS</li>
+          <li class="badge rounded-pill text-bg-danger p-2">GIT</li>
+          <li class="badge rounded-pill text-bg-danger p-2">GITHUB</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="principal">
+
+      <div class="card principal__header">
+        <!-- MENU DE NAVEGAÇÃO COM ABAS -->
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <!-- ABA - SOBRE MIM -->
+            <button class="nav-link active" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about"
+              type="button" role="tab" aria-controls="nav-about" aria-selected="true">Sobre
+              mim</button>
+            <!-- ABA - FORMAÇÃO ACADÊMICA -->
+            <button class="nav-link" id="nav-academic-tab" data-bs-toggle="tab" data-bs-target="#nav-academic"
+              type="button" role="tab" aria-controls="nav-academic" aria-selected="false">Formação acadêmica</button>
+            <!-- ABA - PORTFOLIO -->
+            <button class="nav-link" id="nav-portfolio-tab" data-bs-toggle="tab" data-bs-target="#nav-portfolio"
+              type="button" role="tab" aria-controls="nav-portfolio" aria-selected="false">Portfolio</button>
+            <!-- ABA - CONTATO -->
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+              type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contato</button>
+          </div>
+        </nav>
+      </div>
+      <!-- CONTEÚDO DAS ABAS -->
+      <div class="card tab-content h-auto " id="nav-tabContent">
+        <!-- ABA - SOBRE MIM -->
+        <div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab"
+          tabindex="0">
+          <h2 class="mb-3 fs-4 fw-bold text-decoration-underline">Sobre mim</h2>
+          <p class="lh-lg fs-6">Trabalho na área jurídica há 9 anos, já tendo atuado como advogado e
+            atualmente prestando assessoria para uma Juíza de Direito no Tribunal de Justiça do Estado do Paraná. Após
+            algumas pós-graduações adentrei ao mundo da tecnologia e desde então iniciei estudos em programação e uma
+            nova graduação em Análise e Desenvolvimento de Sistemas. Extremamente interessado em aprender e detentor de
+            amplas habilidades de comunicação.</p>
+          <h3 class="fs-4 my-3">Habilidades e interesses</h3>
+          <ul class="list-group">
+            <li class="list-group-item">Inglês intermediário para fluente.</li>
+            <li class="list-group-item">Formação em HTML e CSS (Alura)</li>
+            <li class="list-group-item">Formação em Front-End (Alura)</li>
+            <li class="list-group-item">Formação de JavaScript Back-End (Alura)</li>
+            <li class="list-group-item">Curso de Barista</li>
+            <li class="list-group-item">Formação Iniciante em Programação(Alura).</li>
+          </ul>
+        </div>
+        <!-- ABA - FORMAÇÃO ACADÊMICA -->
+        <div class="tab-pane fade" id="nav-academic" role="tabpanel" aria-labelledby="nav-academic-tab" tabindex="0">
+          <h2 class="mb-3 fs-4 fw-bold text-decoration-underline">Formação Acadêmica</h2>
+          <ul class="lh-lg list-group">
+            <li class="list-group-item"><span class="fw-bold">Graduação em Análise e Desenvolvimento de Sistemas</span>
+              - UNINTER - Centro
+              Universitário Internacional (2021-)</li>
+            <li class="list-group-item"><span class="fw-bold">Pós-Graduação em Teoria e Filosofia do Direito</span> -
+              Pontifícia Universidade
+              Católica de
+              Minas Gerais (2018 - 2019)</li>
+            <li class="list-group-item"><span class="fw-bold">Pós-Graduação em Direito Aplicado</span> - Escola da
+              Magistratura do Tribunal
+              de Justiça do
+              Estado do Paraná (2014)</li>
+            <li class="list-group-item"><span class="fw-bold">Graduação em Direito</span> - Universidade Federal do
+              Paraná (2008-2012)</li>
+          </ul>
+        </div>
+        <!-- ABA - PORTFOLIO -->
+        <div class="tab-pane fade" id="nav-portfolio" role="tabpanel" aria-labelledby="nav-portfolio-tab" tabindex="0">
+          <h2 class="mb-3 fs-4 fw-bold text-decoration-underline">Portfolio</h2>
+          <!-- CARTÕES COM PROJETOS -->
+          <div id="cartoes-projetos" class="d-flex flex-wrap justify-content-evenly">
+            <!-- CONTEÚDO SERÁ GERADO PELO JAVASCRIPT -->
+          </div>
+
+          <!-- CERTIFICADOS -->
+          <h3 class="fs-5 mb-3">Certificados</h3>
+          <div id="carouselCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/Certificado - iniciante em programação.png" class="d-block w-50 mx-auto"
+                  alt="Certificado">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fs-5">Certificado | Alura</h5>
+                  <p>Formação em iniciante em programação</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/Certificado - HTML.png" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fs-5">Certificado | Alura</h5>
+                  <p>Formação em HTML e CSS</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/Certificado - front-end.png" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fs-5">Certificado | Alura</h5>
+                  <p>Formação em HTML e CSS</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/Certificado - JavaScript0back.png" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fs-5">Certificado | Alura</h5>
+                  <p>Formação em JavaScript Back-end</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+        </div>
+        <!-- ABA - CONTATO -->
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+          <h2 class="mb-3 fs-4 fw-bold text-decoration-underline">Fale comigo</h2>
+          <form id="FormContato">
+            <div class="mb-3">
+              <label for="FormControlInput1" class="form-label">Nome completo</label>
+              <input type="text" name="name" class="form-control" id="FormControlInput1" placeholder="Seu nome">
+            </div>
+            <div class="mb-3">
+              <label for="FormControlInput2" class="form-label">Endereço de e-mail</label>
+              <input type="email" name="email" class="form-control" id="FormControlInput2"
+                placeholder="nome@dominio.com">
+            </div>
+            <div class="mb-3">
+              <label for="FormControlTextarea" class="form-label">Sua mensagem</label>
+              <textarea class="form-control" name="message" id="FormControlTextarea" rows="3"></textarea>
+            </div>
+            <!-- AVISO DINÂMICO / SÓ SERÁ MOSTRADO CASO UMA MENSAGEM SEJA ENVIADA COM SUCESSO -->
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <strong class="me-auto">Obrigado</strong>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body text-dark">
+                  E-mail enviado com sucesso. Logo entrarei em contato.
+                </div>
+              </div>
+            </div>
+            <!-- BOTÃO DE ENVIO DO FORMULÁRIO, COM REMESSA DE E-MAIL -->
+            <button type='submit' class='btn btn-danger mb-3 w-50 align-self-center'>Enviar</button>
+          </form>
+          <div class="contact__options">
+            <article class="contact__option">
+
+              <h4><i class="bi bi-envelope contact__option-icon"></i>Email</h4>
+
+              <a href="mailto:smailey.behm@gmail.com" target='_blank'>Envie uma mensagem</a>
+            </article>
+            <article class="contact__option">
+
+              <h4> <i class="bi bi-messenger contact__option-icon"></i> FB Messenger</h4>
+
+              <a href="https://m.me/smailey.behm" target='_blank'>Envie uma mensagem</a>
+            </article>
+            <article class="contact__option">
+
+              <h4> <i class="bi bi-whatsapp"></i>WhatsApp</h4>
+              <a href="https://api.whatsapp.com/send?phone=5541999605869" target='_blank'>Envie uma mensagem</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- ARQUIVO PRINCIPAL JS -->
+  <script src="main.js"></script>
+  <!-- IMPORTAÇÃO DO EMAILJS - BIBLIOTECA PARA ENVIO DOS E-MAILS ATRAVÉS DO FORM -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init('dNISW2dklRw30Ihzj');
+    })();
+  </script>
+</body>
+
+</html>

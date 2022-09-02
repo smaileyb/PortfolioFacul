@@ -1,0 +1,22 @@
+.perfil__foto {
+  background-repeat: no-repeat;
+  /* para a imagem não se repetir */
+  background-size: cover;
+  /* para que a imagem ocupe todo o background */
+  background-position: center;
+  /* para que a imagem fique posicionada ao centro do background */
+  border: 2px solid var(--azul-claro);
+  border-radius: 50%;
+  /* para fazer com que a imagem mostrada fique em formato de círculo */
+  box-sizing: border-box;
+  height: 8rem;
+  margin: 2rem 0;
+  object-fit: cover;
+  width: 8rem;
+}
+
+.perfil__titulo {
+  color: var(--azul-claro);
+  font-size: 1.5rem;
+  word-wrap: normal;
+}

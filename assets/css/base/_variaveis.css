@@ -1,0 +1,13 @@
+:root {
+  --azul-principal: #457b9d;
+  --azul-escuro: #284b63;
+  --azul-claro: #a8dadc;
+  --branco: #d9d9d9;
+
+  --familia-corpo: 'Merriweather Sans', sans-serif;
+
+
+  --peso-titulo: 700;
+
+  --tamanho-corpo: .875rem;
+}

@@ -1,0 +1,102 @@
+@import url(_variaveis.css);
+@import url(_reset.css);
+
+body {
+  background-color: var(--azul-principal);
+  font-family: var(--familia-corpo);
+  font-size: var(--tamanho-corpo);
+  color: var(--branco);
+
+
+}
+
+main {
+  display: grid;
+  grid-template-columns: 23% 75%;
+  justify-items: stretch;
+  grid-template-areas: "lateral principal ";
+}
+
+a {
+  transition: all 400ms ease;
+}
+
+a:hover {
+  color: var(--azul-claro);
+  transition: all 400ms ease;
+}
+
+.link {
+  transition: all 400ms ease;
+  ;
+}
+
+.link:hover {
+  color: var(--azul-claro);
+  transition: all 400ms ease;
+}
+
+.lateral {
+  display: flex;
+  flex-direction: column;
+  grid-area: lateral;
+
+}
+
+.principal {
+  text-align: justify;
+  grid-area: principal;
+  width: auto;
+
+}
+
+.titulo {
+  font-weight: var(--peso-titulo);
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.card {
+  background-color: var(--azul-escuro);
+  margin: 1rem;
+  padding: 2rem;
+}
+
+i {
+  font-size: 1.25rem;
+  margin-right: 0.75rem;
+}
+
+.nav-link {
+  color: var(--azul-claro);
+  font-size: 1rem;
+  transition: all 400ms ease;
+}
+
+.nav-link:hover {
+  color: var(--branco);
+}
+
+.carousel-item>img {
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 960px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tech {
+    display: none !important;
+  }
+
+  .nav {
+    font-size: 0.825rem;
+    flex-direction: column;
+  }
+
+  .links {
+    display: none !important;
+  }
+}
